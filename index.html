@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FUNduro</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div class="dropdown">
+      <button class="dropbtn">FUNduros</button>
+      <div class="dropdown-content">
+        <a id="mayhem" href="#">Mayhem</a>
+        <a id="tuscazaor" href="#">Tuscazoar</a>
+        <a id="forry" href="#">Forry Preserve</a>
+        <a id="frienduro" href="#">Frienduro</a>
+        <a id="horns" href="#">Horns Hill</a>
+      </div>
+    </div>
     <div id="weather">
       <h2 id="raceName"></h2>
-      <p id="pastRain"></p>
+      <p id="pastRain">Rain accumulation past 2 days:</p>
     </div>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="index.js"></script>
